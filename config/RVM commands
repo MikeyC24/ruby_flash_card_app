@@ -1,0 +1,21 @@
+RVM commands 
+https://rvm.io/rvm/basics 
+
+# This changes to MRI Ruby 2.1.1 and sets it as your default.
+$ rvm --default use 2.1.1
+
+# The following changes to ruby-head (MRI Ruby) but does _not_
+# set it as your default Ruby.
+$ rvm use ruby-head
+
+# This changes to jruby-head and _does_ set it as
+# your default ruby
+$ rvm --default use jruby-head
+
+# You use the following full form if, for example,
+# you previously had a different Ruby selected (maybe JRuby)
+$ rvm use ruby-2.1.1
+
+# This changes to whatever RVM recognizes as the most current
+# MRI Ruby 2.1.1, and sets it as default.
+$ rvm --default use 2.1.1
