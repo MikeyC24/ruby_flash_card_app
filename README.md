@@ -3,6 +3,9 @@ for other comp, make sure to
 sudo apt-get install ruby-dev for noir error
 also in cases other issues- brewupdate and brew install
 
+issues, bugs, and notes
+1. bootstrap dropdown menu is not working, whic covers user settings and user profile, for now I have them on top too until issue is resolved
+
 
 puma for development
 # Puma can serve each request in a thread from an internal thread pool.
